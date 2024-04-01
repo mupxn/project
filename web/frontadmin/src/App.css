@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Prompt:wght@200&display=swap');
+body{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background-color: #eee;
+}
+*{
+  font-family: 'Prompt', sans-serif;
+  font-weight: 1000;
+}
+.container{
+  display: flex;
+}
+.sidebarContainer {
+  height: 100%;
+}
+.page {
+  /* position: relative; */
+  /* background-color: blueviolet; */
+  height: 100%;
+  position: fixed;
+  left: 200px;
+  width: calc(100% - 200px);
+  overflow-y: auto;
+  /* left: 12rem;
+  padding: 1rem 1rem ; */
+  /* overflow-y: hidden; */
+}
+
+@media screen and (max-width: 600px){
+  .sidebarContainer {
+    height: 100%;
+  }
+  .page{
+    /* width: 82%; */
+    /* position: relative; */
+    position: fixed;
+    width: calc(100% - 56px);
+    left: 56px;
+    /* left: 3.5rem; */
+    height: 100%;
+    /* padding: 0.5rem 0.5rem ; */
+  }
+}
+
+

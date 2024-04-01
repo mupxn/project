@@ -1,0 +1,76 @@
+.head-wrap{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+}
+.head-end{
+    display: flex;
+}
+.head-search{
+    padding-right: 1rem;
+}
+.table-wrap{
+    width: 100%;
+    /* overflow: hidden; */
+    /* background-color: white; */
+}
+.table-head{
+    border-radius: 0.5rem 0.5rem 0 0;
+    background-color: #ddd;
+}
+.th{
+    width: 10%;
+    text-align: center;
+    /* background-color: rgb(224, 129, 39); */
+}
+.tr{
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-around;
+}
+.addimage-user,.edit-user,.delete-user{
+    border: none;
+    background-color: Transparent;
+    width: 40px;
+}
+.table-body{
+    background-color: rgb(255, 255, 255);
+}
+.wrap{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    width: 100px;
+    align-items: center;
+}
+.btn-add-user{
+    border-radius: 3px;
+    background: #2b80ff;
+    border: transparent;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.wrap .icon-wrap{
+    width: 18%;
+    margin: 0;
+}
+.td{
+    width: 10%;
+    /* overflow: hidden; */
+    text-wrap: nowrap;
+    text-overflow: ellipsis;
+    text-align: center;
+    /* background-color: aqua; */
+}
+.icon-wrap{
+    width: 20%;
+}
+.user{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+button{
+    cursor: pointer;
+}

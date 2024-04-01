@@ -1,0 +1,84 @@
+{
+    "User": [{
+        "UserID": "001",
+        "Name": "noey",
+        "FaceIMG": "/dataset/img",
+        "Age": "22",
+        "Gender": "F"
+    },{
+        "UserID": "002",
+        "Name": "prawe",
+        "FaceIMG": "/dataset/img",
+        "Age": "20",
+        "Gender": "F"
+    },{
+        "UserID": "003",
+        "Name": "ice",
+        "FaceIMG": "/dataset/img",
+        "Age": "21",
+        "Gender": "M"
+    }],
+    "detection": [{
+        "DetectID": 1,
+        "Date": "01/01/2025",
+        "Time": "12:00",
+        "BgDetect": "/dataset/detect",
+        "FaceDetect": "backen/data_set/detection/face/001_01-01-2025_12-00.jpg",
+        "UserID":"001",
+        "TextID": "001"
+    },{
+        "DetectID": 2,
+        "Date": "01/01/2025",
+        "Time": "12:00",
+        "BgDetect": "/dataset/detect",
+        "FaceDetect": "backen/data_set/detection/face/002_01-01-2025_12-00.jpg",
+        "UserID":"002",
+        "TextID": "001"
+    },{
+        "DetectID": 3,
+        "Date": "01/01/2025",
+        "Time": "12:01",
+        "BgDetect": "/dataset/detect",
+        "FaceDetect": "backen/data_set/detection/face/002_01-01-2025_12-01.jpg",
+        "UserID":"002",
+        "TextID": "001"
+    }],
+    "Emotional": [{
+        "EmoID": "001",
+        "EmoName": "Sad"
+    },{
+        "EmoID": "002",
+        "EmoName": "Happy"
+    },{
+        "EmoID": "003",
+        "EmoName": "Natural"
+    },{
+        "EmoID": "004",
+        "EmoName": "Surprise"
+    },{
+        "EmoID": "005",
+        "EmoName": "Surprise"
+    },{
+        "EmoID": "005",
+        "EmoName": "Disguss"
+    },{
+        "EmoID": "006",
+        "EmoName": "Angry"
+    },{
+        "EmoID": "007",
+        "EmoName": "Fear"
+    }],
+    "EmotionText": [{
+        "TextID":"001",
+        "EmoID":"001",
+        "Text": "เศร้าหาพ่อง"
+    },{
+        "TextID":"002",
+        "EmoID":"001",
+        "Text": "ร้องไห้น้ำตาเช็ดหัวเข่า"
+    },{
+        "TextID":"003",
+        "EmoID":"001",
+        "Text": "เขาไม่รักล่ะสิ"
+    }]
+}
